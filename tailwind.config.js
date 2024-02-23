@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         headings: ["Montserrat", "sans"],
-        body: ["DM Sans", , "sans"],
+        body: ["DM Sans", "sans"],
       },
       fontSize: {
         sm: ["0.875rem", "150%"],
