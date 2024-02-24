@@ -3,6 +3,28 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "DM Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&display=swap");
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face {
+    font-family: "Montserrat", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&display=swap");
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   h1 {
     @apply text-4xl;
   }
@@ -22,7 +44,7 @@
     @apply text-sm;
   }
   button {
-    @apply border-none font-body cursor-pointer bg-none;
+    @apply cursor-pointer border-none bg-none font-body;
   }
 }
 
